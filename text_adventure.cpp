@@ -17,7 +17,7 @@ int main() {
     //user input 1,2,3
     std::cin >> door_select;
 
-    if ((door_select != 1) && (door_select != 2) && (door_select != 3)) {
+    while ((door_select != 1) && (door_select != 2) && (door_select != 3)) {
         std::cout << "Sigh, I said 1... 2... 3...\n";
         std::cin >> door_select;
     }
